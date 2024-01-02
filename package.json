@@ -1,0 +1,18 @@
+{
+  "name": "@anotherjulia/microbabel",
+  "version": "2.0.0",
+  "description": "Simple and Quick Startup Container/App for postgress and prisma databases",
+  "main": "index.js",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "start": "npm run docker:up && npx prisma generate && node index.js && npx prisma studio",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down"
+  },
+  "author": "anotherjulia",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.7.1",
+    "prisma": "^5.7.1"
+  }
+}
