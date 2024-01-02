@@ -14,26 +14,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installation
 
-1. Clone the repository:
+1. Setup the package:
 
 ```bash
-git clone https://github.com/anotherjulia/microbabel.git
+npx @anotherjulia/microbabel my-db
 ```
 
-2. Install the dependencies:
+2. Install dependencies
 
 ```bash
 npm install
 ```
 
-3. Start the application:
+3. Startup the database
 
 ```bash
-npm start
+npm run start
 ```
 
-This will start the Docker containers and the Prisma Client, and then run the application.
-
-### Usage
-
-Once the application is running, you can access the Prisma Studio at http://localhost:5555.
+This will start the Docker containers and the Prisma Client, and start up a Prisma Studio Interface.

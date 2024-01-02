@@ -1,6 +1,6 @@
 {
   "name": "@anotherjulia/microbabel",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Simple and Quick Startup Container/App for postgress and prisma databases",
   "main": "index.js",
   "bin": "./bin/cli.js",
